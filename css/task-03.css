@@ -1,0 +1,18 @@
+.gallery {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   list-style: none;
+   padding: 0;
+ }
+ 
+ .gallery li {
+   flex: 0 1 calc(33.33% - 20px); /* Ширина кожного елемента галереї */
+   margin: 10px;
+ }
+ 
+ .gallery img {
+   max-width: 100%;
+   height: auto;
+ }
+ 
